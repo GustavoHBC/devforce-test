@@ -60,7 +60,7 @@ const Episode = ({ route, navigation: { goBack, popToTop, navigate } }) => {
         keyExtractor={item => item.id}
         ListHeaderComponent={
           <Row center spaceBetween>
-            <Title>Episodes with this character</Title>
+            <Title>Characters in this episode</Title>
             <Text fontSize="small">
               Total: {data?.episode.characters.length}
             </Text>

@@ -104,15 +104,15 @@ const Character = ({ route, navigation: { goBack, popToTop, navigate } }) => {
         <Title>Origin</Title>
         <Row center spaceBetween withimage>
           <Text>Type: </Text>
-          <Text info>{data?.character.origin.type}</Text>
+          <Text info>{data?.character.origin.type || 'unknown'}</Text>
         </Row>
         <Row center spaceBetween withimage>
           <Text>Dimension: </Text>
-          <Text info>{data?.character.origin.dimension}</Text>
+          <Text info>{data?.character.origin.dimension || 'unknown'}</Text>
         </Row>
         <Row center spaceBetween withimage>
           <Text>Name: </Text>
-          <Text info>{data?.character.origin.name}</Text>
+          <Text info>{data?.character.origin.name || 'unknown'}</Text>
         </Row>
       </OriginContainer>
 
