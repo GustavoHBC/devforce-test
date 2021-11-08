@@ -1,6 +1,8 @@
 ## DevForce React Native Test
 
-It was done following [this](https://github.com/c0h1b4/reactnativetask) repo
+It was done following [this](https://github.com/c0h1b4/reactnativetask) repository.
+
+> yarn version used: 1.22.4; node version used: 14.18.1
 
 ### Getting started
 
